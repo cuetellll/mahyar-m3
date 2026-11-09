@@ -3,11 +3,11 @@
 # Example (remove the # to enable):
 # Radio 2 | Music Room 2 | https://example.com/stream.mp3
 Radio 2 |  | https://stream.radiox.pro/listen/popular/radio.mp3
-Radio 2 |  | https://stream.radiox.pro/listen/popularfa/radio.mp3
-Radio 2 |  | https://stream.radiox.pro/listen/shooti/radio.mp3
-Radio 2 |  | https://stream.radiox.pro/listen/sad/radio.mp3
-Radio 2 |  | https://stream.radiox.pro/listen/phonk/radio.mp3
-Radio 2 |  | https://stream.radiox.pro/listen/lofi/radio.mp3
-Radio 2 |  | https://stream.radiox.pro/listen/khaaz/radio.mp3
-Radio 2 |  | https://stream.radiox.pro/listen/classic/radio.mp3
+Radio 3 |  | https://stream.radiox.pro/listen/popularfa/radio.mp3
+Radio 4 |  | https://stream.radiox.pro/listen/shooti/radio.mp3
+Radio 5 |  | https://stream.radiox.pro/listen/sad/radio.mp3
+Radio 6 |  | https://stream.radiox.pro/listen/phonk/radio.mp3
+Radio 7 |  | https://stream.radiox.pro/listen/lofi/radio.mp3
+Radio 8 |  | https://stream.radiox.pro/listen/khaaz/radio.mp3
+Radio 9 |  | https://stream.radiox.pro/listen/classic/radio.mp3
 
