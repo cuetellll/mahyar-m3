@@ -13,14 +13,17 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 COPY --from=ssl /usr/lib/x86_64-linux-gnu/libssl.so.1.1 /usr/lib/x86_64-linux-gnu/
 COPY --from=ssl /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1 /usr/lib/x86_64-linux-gnu/
-RUN ldconfig
+# The bot looks for an unversioned "libopus.so"; Debian only ships libopus.so.0
+RUN ln -sf /usr/lib/x86_64-linux-gnu/libopus.so.0 /usr/lib/x86_64-linux-gnu/libopus.so \
+    && ldconfig
 
 ARG BOT_VERSION=0.12.0
 RUN mkdir -p /app && cd /app \
     && curl -fsSL -o bot.tar.gz \
        "https://github.com/Splamy/TS3AudioBot/releases/download/${BOT_VERSION}/TS3AudioBot_linux_x64.tar.gz" \
     && tar -xzf bot.tar.gz && rm bot.tar.gz \
-    && chmod +x /app/TS3AudioBot
+    && chmod +x /app/TS3AudioBot \
+    && ln -sf /usr/lib/x86_64-linux-gnu/libopus.so.0 /app/libopus.so
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
