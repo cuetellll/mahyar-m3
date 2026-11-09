@@ -25,7 +25,14 @@ RUN mkdir -p /app && cd /app \
     && chmod +x /app/TS3AudioBot \
     && ln -sf /usr/lib/x86_64-linux-gnu/libopus.so.0 /app/libopus.so
 
+# yt-dlp (standalone binary) for SoundCloud / YouTube; bot looks for "youtube-dl"
+RUN curl -fsSL -o /usr/local/bin/yt-dlp \
+      https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux \
+    && chmod +x /usr/local/bin/yt-dlp \
+    && ln -sf /usr/local/bin/yt-dlp /usr/local/bin/youtube-dl
+
 COPY entrypoint.sh /entrypoint.sh
+COPY radios.txt /app/radios.txt
 RUN chmod +x /entrypoint.sh
 
 WORKDIR /data

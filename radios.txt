@@ -1,0 +1,13 @@
+# Extra radio bots. One line per bot:  bot name | channel | stream url
+# Lines starting with # are ignored. Leave channel empty to use the server's default channel.
+# Example (remove the # to enable):
+# Radio 2 | Music Room 2 | https://example.com/stream.mp3
+Radio 2 |  | https://stream.radiox.pro/listen/popular/radio.mp3
+Radio 2 |  | https://stream.radiox.pro/listen/popularfa/radio.mp3
+Radio 2 |  | https://stream.radiox.pro/listen/shooti/radio.mp3
+Radio 2 |  | https://stream.radiox.pro/listen/sad/radio.mp3
+Radio 2 |  | https://stream.radiox.pro/listen/phonk/radio.mp3
+Radio 2 |  | https://stream.radiox.pro/listen/lofi/radio.mp3
+Radio 2 |  | https://stream.radiox.pro/listen/khaaz/radio.mp3
+Radio 2 |  | https://stream.radiox.pro/listen/classic/radio.mp3
+
