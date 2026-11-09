@@ -2,3 +2,4 @@
 # Lines starting with # are ignored. Leave channel empty to use the server's default channel.
 # Example (remove the # to enable):
 # Radio 2 | Music Room 2 | https://example.com/stream.mp3
+Radio 2 | music mahyar1 | https://stream.radiox.pro/listen/phonk/radio.mp3
