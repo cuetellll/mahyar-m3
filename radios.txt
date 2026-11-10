@@ -1,7 +1,7 @@
 # Extra radio bots. One line per bot:  bot name | channel | stream url
 # Lines starting with # are ignored. Leave channel empty to use the server's default channel.
 # Example (remove the # to enable):
-# Radio 2 | 👽musci bot👽 | https://example.com/stream.mp3
+# Radio 2 |  | https://example.com/stream.mp3
 phonk💀 | 👽musci bot👽 | https://stream.radiox.pro/listen/phonk/radio.mp3
 shooti🦍 | 👽musci bot👽 | https://stream.radiox.pro/listen/shooti/radio.mp3
 popularfa🎶 | 👽musci bot👽 | https://stream.radiox.pro/listen/popularfa/radio.mp3
@@ -9,5 +9,3 @@ popular(en)🎀 | 👽musci bot👽 | https://stream.radiox.pro/listen/popular/r
 dep😪 | 👽musci bot👽 | https://stream.radiox.pro/listen/dep/radio.mp3
 driving🚓 | 👽musci bot👽 | https://stream.radiox.pro/listen/driving/radio.mp3
 sad🙂 | 👽musci bot👽 | https://stream.radiox.pro/listen/sad/radio.mp3
-khaaz😛 | 👽musci bot👽 | https://stream.radiox.pro/listen/khaaz/radio.mp3
-chill😴 | 👽musci bot👽 | https://stream.radiox.pro/listen/lofi/radio.mp3
